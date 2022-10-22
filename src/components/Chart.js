@@ -15,7 +15,12 @@ ChartJS.register(ArcElement, Tooltip, Legend)
 function Chart() {
 
   return (
-    <Box sx={{pt:3}}>
+    <Box sx={{
+      pt:3,
+      width: '100%',
+      height: '95vh',
+      backgroundColor: 'primary.light',
+      }}>
       <Grid
         container
         direction="row"

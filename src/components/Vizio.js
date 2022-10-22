@@ -34,15 +34,7 @@ function Vizio() {
           </Box>
         </Grid>
       </Box>
-      <Box
-        sx={{
-            width: '100%',
-            height: '95vh',
-            backgroundColor: 'primary.light',
-        }}
-      >
-        <Chart />
-      </Box>
+      <Chart />
     </>
   
   )
