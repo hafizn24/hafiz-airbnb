@@ -18,7 +18,11 @@ function Chart() {
     <Box sx={{
       pt:3,
       width: '100%',
-      height: '95vh',
+      height: {
+        xs:1050,
+        sm:'60vh',
+        lg:'95vh'
+      },
       backgroundColor: 'primary.light',
       }}>
       <Grid
@@ -28,12 +32,12 @@ function Chart() {
         alignItems="flex-start"
       >
         <Box
-          sx={{width:300, m:2, p:1, borderRadius: 3, backgroundColor:'white'}}
+          sx={{width:350, m:2, p:1, borderRadius: 3, backgroundColor:'white'}}
         >
           <ChartPie />
         </Box>
         <Box
-          sx={{width:450, m:2, p:1, borderRadius: 3, backgroundColor:'white'}}
+          sx={{width:{xs:350,lg:450}, m:2, p:1, borderRadius: 3, backgroundColor:'white'}}
         >
           <ChartAP />
         </Box>
@@ -45,12 +49,12 @@ function Chart() {
         alignItems="flex-start"
       >
         <Box
-          sx={{width:450, m:2, p:1, borderRadius: 3, backgroundColor:'white'}}
+          sx={{width:{xs:350,lg:450}, m:2, p:1, borderRadius: 3, backgroundColor:'white'}}
         >
           <ChartReview />
         </Box>
         <Box
-          sx={{width:450, m:2, p:1, borderRadius: 3, backgroundColor:'white'}}
+          sx={{width:{xs:350,lg:450}, m:2, p:1, borderRadius: 3, backgroundColor:'white'}}
         >
           <ChartScat />
         </Box>

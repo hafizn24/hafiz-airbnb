@@ -25,11 +25,15 @@ function Main() {
       <Hero />
 
       <div ref={prep} />
-      <br />  
+      <br />
+      <br />
+      <br />
       <Prep  />
 
       <div ref={vizio} />
-      <br />  
+      <br />
+      <br />
+      <br />
       <Vizio />
 
       <Footer />

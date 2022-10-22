@@ -11,7 +11,7 @@ import powerbi from './pdf/Airbnb_PowerBI.pbix'
 function Vizio() {
   return (
     <>
-      <Box sx={{mt:8, mb:6}}>
+      <Box sx={{mt:0, mb:2}}>
         <Typography variant='h5' align="center"><b>Visualization</b></Typography>
 
         <Grid
@@ -20,7 +20,7 @@ function Vizio() {
           justifyContent="center"
           alignItems="center"
         >
-          <Box sx={{m:2}}>
+          <Box sx={{m:1}}>
             <Tooltip title="Data Visualization PDF">
               <Link href={powerpdf} underline="none" target={"_blank"} sx={{mx:1}}>
                   <IconButton><BsFileEarmarkPdf size={42} color='black'/></IconButton>

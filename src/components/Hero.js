@@ -17,7 +17,7 @@ function Hero() {
         sx={{
             width: 80,
             height: 80,
-            mt: 6
+            mt: 4
           }}
         >
             <CardMedia 
