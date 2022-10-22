@@ -1,7 +1,6 @@
-import { Grid, CardMedia, Box, Typography } from '@mui/material'
-import { Document, Page } from 'react-pdf'
+import {Box, Typography } from '@mui/material'
 
-import notebook from './pdf/Airbnb Preprocessing.pdf'
+import pdf from './pdf/Airbnb Preprocessing.pdf'
 
 function Prep() {
   return (
@@ -10,15 +9,14 @@ function Prep() {
             <Typography variant='h5' align="center" color="primary.dark"><b>Data Preparation</b></Typography>
         </Box>
         <Box
+          align="center"
             sx={{
                 width: '100%',
-                height: '76vh',
+                height: '1000',
                 backgroundColor: 'secondary.main',
             }}
         >
-          <Document file={notebook}>
-            <Page pageNumber={1}/>
-          </Document>
+          <iframe src={pdf} frameborder="0" width="50%" height="550"></iframe>
         </Box>
     </>
   )

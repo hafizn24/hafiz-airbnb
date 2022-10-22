@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from './NavBar'
 import Hero from './Hero'
 import Prep from './Prep'
+import Vizio from './Vizio'
 
 function Main() {
   return (
@@ -9,6 +10,7 @@ function Main() {
         <NavBar />
         <Hero />
         <Prep />
+        <Vizio />
     </div>
   )
 }
