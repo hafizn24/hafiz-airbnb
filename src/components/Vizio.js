@@ -11,7 +11,7 @@ import powerbi from './pdf/Airbnb_PowerBI.pbix'
 function Vizio() {
   return (
     <>
-      <Box sx={{my:4}}>
+      <Box sx={{mt:8, mb:6}}>
         <Typography variant='h5' align="center"><b>Visualization</b></Typography>
 
         <Grid
