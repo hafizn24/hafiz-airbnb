@@ -29,7 +29,7 @@ function ChartScat() {
             },
             title: {
                 display: true,
-                text: 'Chart.js Line Chart',
+                text: 'Average of price by room type and neighbourhood group',
             },
         },
     }

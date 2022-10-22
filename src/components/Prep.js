@@ -6,7 +6,7 @@ function Prep() {
   return (
     <>
         <Box sx={{mt:8, mb:6}}>
-            <Typography variant='h5' align="center" color="primary.dark"><b>Data Preparation</b></Typography>
+            <Typography variant='h5' align="center"><b>Data Preparation</b></Typography>
         </Box>
         <Box
           align="center"

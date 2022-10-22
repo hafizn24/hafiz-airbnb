@@ -3,6 +3,7 @@ import NavBar from './NavBar'
 import Hero from './Hero'
 import Prep from './Prep'
 import Vizio from './Vizio'
+import Footer from './Footer'
 
 function Main() {
   return (
@@ -11,6 +12,7 @@ function Main() {
         <Hero />
         <Prep />
         <Vizio />
+        <Footer />
     </div>
   )
 }

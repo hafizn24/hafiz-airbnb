@@ -5,6 +5,16 @@ import { Pie } from 'react-chartjs-2';
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 function ChartPie() {
+
+    const options = {
+        plugins: {
+            title: {
+              display: true,
+              text: 'Average of price by room type and neighbourhood group',
+            },
+        }
+    }
+
     //   Pie Chart
     const count_pie = [53679, 46533, 2226, 116]
     const room_pie = ['Entire home/apt', 'Private room', 'Shared room', 'Hotel room']
@@ -37,7 +47,7 @@ function ChartPie() {
     }
 
     return (
-        <Pie data={data} />
+        <Pie options={options} data={data} />
     )
 }
 

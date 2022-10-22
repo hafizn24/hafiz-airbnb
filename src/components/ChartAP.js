@@ -25,7 +25,7 @@ function ChartAP() {
         plugins: {
             title: {
               display: true,
-              text: 'Chart.js Bar Chart - Stacked',
+              text: 'Average of price by room type and neighbourhood group',
             },
           },
           responsive: true,

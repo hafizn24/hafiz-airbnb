@@ -25,7 +25,7 @@ function ChartReview() {
         plugins: {
             title: {
               display: true,
-              text: 'Chart.js Bar Chart - Stacked',
+              text: 'Average of review rate number by neighbourhood group and room type',
             },
           },
           responsive: true,

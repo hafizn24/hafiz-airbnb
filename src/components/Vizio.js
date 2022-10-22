@@ -10,32 +10,41 @@ import powerbi from './pdf/Airbnb_PowerBI.pbix'
 
 function Vizio() {
   return (
-  <Box sx={{my:6}}>
-      <Typography variant='h5' align="center" color="primary.dark"><b>Visualization</b></Typography>
+    <>
+      <Box sx={{my:4}}>
+        <Typography variant='h5' align="center"><b>Visualization</b></Typography>
 
-      <Grid
-        container
-        direction="row"
-        justifyContent="center"
-        alignItems="center"
-      >
-        <Box sx={{m:2}}>
-          <Tooltip title="Data Visualization PDF">
-            <Link href={powerpdf} underline="none" target={"_blank"} sx={{mx:1}}>
-                <IconButton><BsFileEarmarkPdf size={42} color='black'/></IconButton>
-            </Link>
-          </Tooltip>
-          <Tooltip title="Power BI">
-              <Link href={powerbi} underline="none" target={"_blank"} sx={{mx:1}}>
-                  <IconButton><SiPowerbi size={42} color='black'/></IconButton>
+        <Grid
+          container
+          direction="row"
+          justifyContent="center"
+          alignItems="center"
+        >
+          <Box sx={{m:2}}>
+            <Tooltip title="Data Visualization PDF">
+              <Link href={powerpdf} underline="none" target={"_blank"} sx={{mx:1}}>
+                  <IconButton><BsFileEarmarkPdf size={42} color='black'/></IconButton>
               </Link>
-          </Tooltip>
-        </Box>
-      </Grid>
-
-
-      <Chart />
-  </Box>
+            </Tooltip>
+            <Tooltip title="Power BI">
+                <Link href={powerbi} underline="none" target={"_blank"} sx={{mx:1}}>
+                    <IconButton><SiPowerbi size={42} color='black'/></IconButton>
+                </Link>
+            </Tooltip>
+          </Box>
+        </Grid>
+      </Box>
+      <Box
+        sx={{
+            width: '100%',
+            height: '95vh',
+            backgroundColor: 'primary.light',
+        }}
+      >
+        <Chart />
+      </Box>
+    </>
+  
   )
 }
 

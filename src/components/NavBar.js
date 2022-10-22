@@ -32,8 +32,8 @@ function NavBar() {
             justifyContent="flex-end"
             alignItems="center"
           >
-            <Button><Typography variant="subtitle2" color="primary.dark" sx={{ fontWeight: 'bold' }}>Preparation</Typography></Button>
-            <Button><Typography variant="subtitle2" color="primary.dark" sx={{ fontWeight: 'bold' }}>Visualization</Typography></Button>
+            <Button><Typography variant="subtitle2" color="ivory" sx={{ fontWeight: 'bold' }}>Preparation</Typography></Button>
+            <Button><Typography variant="subtitle2" color="ivory" sx={{ fontWeight: 'bold' }}>Visualization</Typography></Button>
           </Grid>
         </Toolbar>
       </AppBar>
