@@ -16,7 +16,18 @@ function Prep() {
                 backgroundColor: 'secondary.main',
             }}
         >
-          <iframe src={pdf} frameborder="0" width="55%" height="550"></iframe>
+          <Box
+          align="center"
+          sx={{
+            width:{
+              xs:'100%',
+              sm:'60vh',
+              lg:'55%',
+            }
+          }}
+          >
+            <iframe src={pdf} frameborder="0" width="100%" height="550"></iframe>
+          </Box>
         </Box>
     </>
   )
