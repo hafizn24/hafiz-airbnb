@@ -3,6 +3,8 @@ import {Box, Typography, Link, Tooltip, IconButton, Grid } from '@mui/material'
 import { BsFileEarmarkPdf } from 'react-icons/bs'
 import { SiPowerbi } from 'react-icons/si'
 
+import Chart from './Chart'
+
 import powerpdf from './pdf/Airbnb_PowerBI.pdf'
 import powerbi from './pdf/Airbnb_PowerBI.pbix'
 
@@ -30,6 +32,9 @@ function Vizio() {
           </Tooltip>
         </Box>
       </Grid>
+
+
+      <Chart />
   </Box>
   )
 }
