@@ -5,37 +5,13 @@ import { Box } from '@mui/material'
 
 import ChartPie from './ChartPie'
 import ChartAP from './ChartAP'
+import ChartReview from './ChartReview'
 
 
 ChartJS.register(ArcElement, Tooltip, Legend)
 
 
 function Chart() {
-
-
-
-
-//   Review
-  const group_review = [
-    'Brooklyn', 'Queens', 'Staten Island', 'Manhattan',
-    'Staten Island', 'Queens', 'Queens', 'Bronx', 'Brooklyn', 'Bronx',
-    'Staten Island', 'Queens', 'Manhattan', 'Manhattan', 'Bronx',
-    'Brooklyn', 'Manhattan', 'Brooklyn'
-  ]
-  const rate_review = [
-    3.75, 3.75, 3.53, 3.5 , 3.48, 
-    3.38, 3.35, 3.34, 3.34, 3.33, 
-    3.33, 3.31, 3.28, 3.27, 3.26, 
-    3.26, 3.26, 3.25
-  ]
-  const room_review = [
-    'Hotel room', 'Hotel room', 'Shared room', 'Hotel room',
-    'Private room', 'Shared room', 'Entire home/apt',
-    'Entire home/apt', 'Shared room', 'Private room',
-    'Entire home/apt', 'Private room', 'Private room',
-    'Entire home/apt', 'Shared room', 'Private room', 'Shared room',
-    'Entire home/apt'
-  ]
 
 // Scatter Plot
   const group_scat = [
@@ -66,8 +42,9 @@ function Chart() {
                 width:400,
                 heigth:400
             }}>
-                {/* <ChartPie /> */}
+                <ChartPie />
                 <ChartAP />
+                <ChartReview />
             </Box>
         </center>
     </>
